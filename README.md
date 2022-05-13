@@ -16,7 +16,7 @@ Project creates a virtual network environment with one server (DC) and a client 
 
 <h3>Network plan for project environment</h3> 
 <br />
-<img src="https://i.imgur.com/GuIbe9s.png" height="80%" width="80%" />
+<img src="https://i.imgur.com/vpqGEXe.png" height="80%" width="80%" />
 
 <h3>Virtualbox performance issues</h2>
 I was creating a virtual machine to install Windows Server 2019 and ran into strong performance issues: The mouse was so slow it became impossible to click on things. When typing, the letters would show up only about a minute later. I had different theories about what could be the problem. I went through the troubleshooting process step-by-step:
@@ -28,9 +28,23 @@ I was creating a virtual machine to install Windows Server 2019 and ran into str
 <img src="https://i.imgur.com/YSYWoaM.png" height="80%" width="80%" />
 <br />
 <br />
-With Virtualbox now running as intended, I went ahead and created the first virtual machine to serve as our Windows Server 2019 and Active Directory Domain Services (DC on the Network plan).
-<br />
+With Virtualbox now running as intended, I went ahead and created the first virtual machine to serve as our Windows Server 2019 and Active Directory Domain Services (DC on the Network plan). <br />
 <br />
 <img src="https://i.imgur.com/U44F7td.png" height="80%" width="80%" />
+<br />
+<br />
+Then, I installed the Remote Access and DHCP features on our server to allow our client system (Client1) to access the internet through our sever in the future. <br />
+<br />
+<img src="https://i.imgur.com/FaRqFu1.png" height="80%" width="80%" />
+<br />
+<br />
+The last server configuration is to define the IP address range for the DHCP and make sure the feature is actually running. <br />
+<br />
+<img src="https://i.imgur.com/ZES08fo.png" height="80%" width="80%" />
+<br />
+<br />
+Run a PowerShell script that creates ~1000 users. Full disclosure: I did not write this script myself but I made sure I understand what each line does. It essentially uses a text file with about 1000 names in it to automatically create a useranme, password, and account for each one. <br />
+<br />
+<img src="https://i.imgur.com/uPBlV91.png" height="80%" width="80%" />
 <br />
 <br />
