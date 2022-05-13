@@ -1,4 +1,4 @@
-<h1>Active Directory with PowerShell</h1>
+<h1>Active Directory Home Lab</h1>
 
 <h2>Description</h2>
 Project creates a virtual network environment with one server and a client. The Active Directory on the server is configured with 1000+ accounts through a PowerShell script. 
