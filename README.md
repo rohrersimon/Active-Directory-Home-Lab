@@ -16,8 +16,8 @@ Project creates a virtual network environment with one server and a client. The 
 <h2>Project walk-through:</h2>
 
 <p align="center">
-Launch the utility: <br/>
-<img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Network plan for project environmnet <br/>
+<img src="https://imgur.com/a/PEJEKbz" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Select the disk:  <br/>
