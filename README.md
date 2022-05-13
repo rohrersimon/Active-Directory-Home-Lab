@@ -43,7 +43,7 @@ The last server configuration is to define the IP address range for the DHCP and
 <img src="https://i.imgur.com/ZES08fo.png" height="80%" width="80%" />
 <br />
 <br />
-Run a PowerShell script that creates ~1000 users. Full disclosure: I did not write this script myself but I made sure I understand what each line does. It essentially uses a text file with about 1000 names in it to automatically create a useranme, password, and account for each one. <br />
+Run a PowerShell script that creates 1000 users. Full disclosure: I did not write this script myself but I made sure I understand what each line does. It essentially uses a text file with 1000 names in it to automatically create a useranme, password, and account for each one. <br />
 <br />
 <img src="https://i.imgur.com/uPBlV91.png" height="80%" width="80%" />
 <br />
