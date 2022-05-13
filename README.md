@@ -17,7 +17,7 @@ Project creates a virtual network environment with one server and a client. The 
 
 <p align="center">
 Network plan for project environmnet <br/>
-<img src="https://imgur.com/a/PEJEKbz" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/wdHyvE9" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Select the disk:  <br/>
