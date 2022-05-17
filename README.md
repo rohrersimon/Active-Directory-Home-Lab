@@ -63,3 +63,13 @@ After installing Windows 10 the DHCP automatically gave the client VM an IP addr
 <img src="https://i.imgur.com/NREpAyM.png" height="80%" width="80%" />
 <br />
 <br />
+To make sure the local domain works (mydomain.com), I restart Client1 and login to the system using an account I creaded with the PowerShell script on the server earlier.<br />
+<br />
+<img src="https://i.imgur.com/yOfkwdn.png" height="80%" width="80%" />
+<br />
+<br />
+Bringing this project to a close: I can login with any user created with the PowerShell script from Client1 and the system is connected to the server and the internet.<br />
+<br />
+<img src="https://i.imgur.com/WjUyiUw.png" height="80%" width="80%" />
+<br />
+<br />
