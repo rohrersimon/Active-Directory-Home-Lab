@@ -53,8 +53,13 @@ It's time to create the Client1 virtual machine (VM). I originally wanted to ins
 <img src="https://i.imgur.com/gqlLZVo.png" height="80%" width="80%" />
 <br />
 <br />
-Turns out the minimum requirements from Microsoft for Windows 11 machines are 4Gb RAM. My actual PC has 8Gb RAM and it needs to run the host OS, the server VM, as well as the client VM. My solution is to install Windows 10 which only requires 2Gb RAM in 64-Bit systems.<br />
+Turns out the minimum requirements from Microsoft for Windows 11 machines are 4Gb RAM. My actual PC has 8Gb RAM and it needs to run the host OS, the server VM, as well as the client VM. This is too much for my laptop. The solution I came to was installing Windows 10 which only requires 2Gb RAM in 64-Bit systems.<br />
 <br />
 <img src="https://i.imgur.com/73txff3.png" height="80%" width="80%" />
+<br />
+<br />
+After installing Windows 10 the DHCP automatically gave the client VM an IP address and connectivity to the internet works as well.<br />
+<br />
+<img src="https://i.imgur.com/NREpAyM.png" height="80%" width="80%" />
 <br />
 <br />
