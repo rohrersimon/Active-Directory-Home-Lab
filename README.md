@@ -48,3 +48,13 @@ Run a PowerShell script that creates 1000 users. Full disclosure: I did not writ
 <img src="https://i.imgur.com/uPBlV91.png" height="80%" width="80%" />
 <br />
 <br />
+It's time to create the Client1 virtual machine (VM). I originally wanted to install Windows 11 on a machine with one CPU core and 1024Gb RAM allotted to it. However, that lead to an error message. <br />
+<br />
+<img src="https://i.imgur.com/gqlLZVo.png" height="80%" width="80%" />
+<br />
+<br />
+Turns out the minimum requirements from Microsoft for Windows 11 machines are 4Gb RAM. My actual PC has 8Gb RAM and it needs to run the host OS, the server VM, as well as the client VM. My solution is to install Windows 10 which only requires 2Gb RAM in 64-Bit systems.<br />
+<br />
+<img src="https://i.imgur.com/73txff3.png" height="80%" width="80%" />
+<br />
+<br />
